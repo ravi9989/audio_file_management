@@ -10,3 +10,4 @@ Here are something what I want to do more on this project
 - [ ] Dockerization
 - [ ] Validation forms for handling wrong data before hand
 - [ ] Doc string for code 
+- [ ] Testing scripts
