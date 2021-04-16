@@ -35,7 +35,7 @@
         }
         
                     
-####2. Update
+#### 2. Update
 
     url = /api/v1/<audioFileType>/<audioFileID> 
     method = POST
@@ -51,19 +51,18 @@
             
         }
 
-##3. delete
+#### 3. delete
   
     url = /api/v1/<audioFileType>/<audioFileID>
     method = DELETE
     content-type = application/json
--example
-    - url : `/api/v1/audiobook/1` - delete record present at id 1
+    -example
+        - url : `/api/v1/audiobook/1` - delete record present at id 1
 
 ##4. get
-
    1. - url:  `/api/v1/<audioFileType>`
       - description: `get all the data present in <audioFileType> database`
-   2.- url:  `/api/v1/<audioFileType>/<audioFileID>`
+   2. - url:  `/api/v1/<audioFileType>/<audioFileID>`
       - description: `get all data present in <audioFileType> database having id `audioFileID`    
    3. ###### urls
    
