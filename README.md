@@ -16,13 +16,6 @@
 2. run the command
     `python3 serve.py`
 
-3. To make sure the server is running hit 'localhost:9012/' in the browser
-    you will get 'hello world'
-        
-
-# How to TEST APIS
-Test api structure is given in documentation, it is postman exported one.
-
 # apis end point
 
 #### 1. create
@@ -79,7 +72,7 @@ Test api structure is given in documentation, it is postman exported one.
           url2 = `/api/v1/audiobook/1` - get data having id 1
     
     
-### Return from REQUEST
+### Response from REQUEST
 
     - Action is successful: 200 OK
     - The request is invalid: 406 bad request
